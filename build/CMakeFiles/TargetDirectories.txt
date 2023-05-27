@@ -1,0 +1,11 @@
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/apk.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/aab.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/breweryApp.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/edit_cache.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/rebuild_cache.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/list_install_components.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/install.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/install/local.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/install/strip.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/breweryApp_autogen_timestamp_deps.dir
+D:/Harjotuskoodit/breweryApp/build/CMakeFiles/breweryApp_autogen.dir

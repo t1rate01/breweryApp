@@ -1,0 +1,11 @@
+# ninja log v5
+17	174	7068466781661863	breweryApp_autogen/timestamp	95bc147335894e28
+17	174	7068466781661863	breweryApp_autogen/mocs_compilation.cpp	95bc147335894e28
+268	1284	7068453105119419	CMakeFiles/breweryApp.dir/main.cpp.o	85ee223884198d41
+17	174	7068466781661863	D:/Harjotuskoodit/breweryApp/build/breweryApp_autogen/timestamp	95bc147335894e28
+5	61	7068499149598485	D:/Harjotuskoodit/breweryApp/build/breweryApp_autogen/EWIEGA46WW/qrc_qml.cpp	d9c7d265333331b0
+257	330	7068453095690456	CMakeFiles/breweryApp.dir/breweryApp_autogen/mocs_compilation.cpp.o	5958202b4d0e198
+17	174	7068466781661863	D:/Harjotuskoodit/breweryApp/build/breweryApp_autogen/mocs_compilation.cpp	95bc147335894e28
+5	61	7068499149598485	breweryApp_autogen/EWIEGA46WW/qrc_qml.cpp	d9c7d265333331b0
+61	131	7068499150221802	CMakeFiles/breweryApp.dir/breweryApp_autogen/EWIEGA46WW/qrc_qml.cpp.o	cad8dd461d121ce3
+132	255	7068499151492033	android-build/libs/armeabi-v7a/libbreweryApp_armeabi-v7a.so	9deb4e7713954ac5
