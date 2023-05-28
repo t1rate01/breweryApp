@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\tjran\\.gradle\\daemon\\8.0\\org.qtproject.example.breweryAssingmentRantanen-mergeDebugResources-3:\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\QT\\6.5.1\\android_x86_64\\src\\android\\java\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "22,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "827,1016",
+                        "endColumns": "107,97",
+                        "endOffsets": "930,1109"
+                    }
+                },
+                {
+                    "source": "D:\\Harjotuskoodit\\breweryAssingmentRantanen\\build\\android-build\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "4,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "4,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "148,-1,-1,-1,-1,-1,-1",
+                        "endLines": "7,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "12,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "259,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,6,9,21,23,24,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,171,291,776,935,976,1114",
+                        "endLines": "5,8,20,21,23,24,26",
+                        "endColumns": "12,12,12,50,40,39,47",
+                        "endOffsets": "166,286,771,822,971,1011,1157"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "org.qtproject.example.breweryAssingmentRantanen-mergeDebugResources-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "D:\\QT\\6.5.1\\android_x86_64\\src\\android\\java\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "26,29",
+                        "startColumns": "4,4",
+                        "startOffsets": "1041,1230",
+                        "endColumns": "107,97",
+                        "endOffsets": "1144,1323"
+                    }
+                },
+                {
+                    "source": "D:\\Harjotuskoodit\\breweryAssingmentRantanen\\build\\android-build\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "-1,-1,9,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,4,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,265,-1,-1,-1,-1",
+                        "endLines": "-1,-1,24,-1,-1,-1,-1",
+                        "endColumns": "-1,-1,12,-1,-1,-1,-1",
+                        "endOffsets": "-1,-1,959,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,6,9,25,27,28,30",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,171,291,990,1149,1190,1328",
+                        "endLines": "5,8,24,25,27,28,30",
+                        "endColumns": "12,12,12,50,40,39,47",
+                        "endOffsets": "166,286,985,1036,1185,1225,1371"
+                    }
+                }
+            ]
+        }
+    ]
+}

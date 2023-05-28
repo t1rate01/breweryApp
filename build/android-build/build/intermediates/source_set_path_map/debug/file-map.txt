@@ -1,0 +1,9 @@
+org.qtproject.example.breweryAssingmentRantanen-pngs-0 D:\Harjotuskoodit\breweryAssingmentRantanen\build\android-build\build\generated\res\pngs\debug
+org.qtproject.example.breweryAssingmentRantanen-resValues-1 D:\Harjotuskoodit\breweryAssingmentRantanen\build\android-build\build\generated\res\resValues\debug
+org.qtproject.example.breweryAssingmentRantanen-rs-2 D:\Harjotuskoodit\breweryAssingmentRantanen\build\android-build\build\generated\res\rs\debug
+org.qtproject.example.breweryAssingmentRantanen-mergeDebugResources-3 D:\Harjotuskoodit\breweryAssingmentRantanen\build\android-build\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+org.qtproject.example.breweryAssingmentRantanen-mergeDebugResources-4 D:\Harjotuskoodit\breweryAssingmentRantanen\build\android-build\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+org.qtproject.example.breweryAssingmentRantanen-merged_res-5 D:\Harjotuskoodit\breweryAssingmentRantanen\build\android-build\build\intermediates\merged_res\debug
+org.qtproject.example.breweryAssingmentRantanen-android-build-6 D:\Harjotuskoodit\breweryAssingmentRantanen\build\android-build\res
+org.qtproject.example.breweryAssingmentRantanen-debug-7 D:\Harjotuskoodit\breweryAssingmentRantanen\build\android-build\src\debug\res
+org.qtproject.example.breweryAssingmentRantanen-java-8 D:\QT\6.5.1\android_x86_64\src\android\java\res
