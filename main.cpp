@@ -11,11 +11,13 @@ int main(int argc, char *argv[])
 #endif
     QGuiApplication app(argc, argv);
 
-    breweryData * brew = new(breweryData);
+    breweryData * brew = new(breweryData); // create breweryData object.
+                                            // not deleting it since it runs in main and is basically the app
+                                            // and it dies with the app.
 
     QQmlApplicationEngine engine;
 
-    // add brewerydata to qml
+    //  brewerydata to qml
     engine.rootContext()->setContextProperty("brew", brew);
 
     const QUrl url(QStringLiteral("qrc:/main.qml"));
@@ -27,7 +29,7 @@ int main(int argc, char *argv[])
     engine.load(url);
 
 
-    brew->updateBreweries();
+    brew->updateBreweries(); // call the api calling function
 
 
 

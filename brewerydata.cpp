@@ -88,11 +88,11 @@ QString breweryData::getFirstPopupText()
 
 void breweryData::handleData(QJsonDocument document)
 {
-        // no need to check if document is array/object since we know whats coming
+        // no check if document is array/object since we know whats coming from the api, assuming the api is running
         QJsonArray jsonArray = document.array();
         QJsonObject northernMostObj;
         QJsonObject southernMostObj;
-        double northernMostLat= -90; // initialize with a southern point (more positive -> more north)
+        double northernMostLat= -90; // initialize with a southern point
         double southernMostLat= 90; // same but opposite
 
         for(QJsonArray::iterator i = jsonArray.begin(); i != jsonArray.end(); i++)
@@ -102,10 +102,10 @@ void breweryData::handleData(QJsonDocument document)
             {
                 firstBrewery = jsonObj;
                 updateFirst(jsonObj.value("name").toString());
-                qDebug()<<"First brew added";
+              //  qDebug()<<"First brew added";
             }
 
-            if(!jsonObj.value("latitude").isNull()) // ignore NULL values
+            if(!jsonObj.value("latitude").isNull()) // ignore NULL values, since there were data with NULL latitude values
             {
                 double currentLat=jsonObj.value("latitude").toString().toDouble();
 
@@ -116,16 +116,15 @@ void breweryData::handleData(QJsonDocument document)
                 if (currentLat < southernMostLat){
                     southernMostLat = currentLat;
                     southernMostObj = jsonObj;
-            }
-            northernBrewery = northernMostObj;
-            updateNorth(northernBrewery.value("name").toString());
-            southernBrewery = southernMostObj;
-            updateSouth(southernBrewery.value("name").toString());
-        }
-    qDebug()<<"Northernmost brewery is " << northernBrewery.value("name").toString();
-    qDebug()<<"Southernmost brewery is " << southernBrewery.value("name").toString();
-    qDebug()<<"First added brewery is " << firstBrewery.value("name").toString();
-        }
+                }}}
+    northernBrewery = northernMostObj;
+    updateNorth(northernBrewery.value("name").toString());
+    southernBrewery = southernMostObj;
+    updateSouth(southernBrewery.value("name").toString());
+   // qDebug()<<"Northernmost brewery is " << northernBrewery.value("name").toString();
+   // qDebug()<<"Southernmost brewery is " << southernBrewery.value("name").toString();
+   // qDebug()<<"First added brewery is " << firstBrewery.value("name").toString();
+
 }
 
 void breweryData::updateNorth(QString newstring)
