@@ -24,7 +24,7 @@ QString breweryData::getNorthPopupText()
     QString returnString;
     returnString += getNorthern() + "\n";
     if (!northernBrewery.value("website_url").isNull()){
-        returnString += "Website: " + southernBrewery.value("website_url").toString() + "\n";
+        returnString += "Website: " + northernBrewery.value("website_url").toString() + "\n";
     } else {
         returnString += "No website available \n";
     }
@@ -33,6 +33,7 @@ QString breweryData::getNorthPopupText()
     } else {
         returnString += "No city available";
     }
+    qDebug()<<"Website " + northernBrewery.value("website_url").toString();
 
     return returnString;
 }

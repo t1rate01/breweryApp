@@ -71,7 +71,7 @@ Window {
                anchors.centerIn: window
                  Text{
                     text: brew.southpopuptext
-                    font.pixelSize: Screen.height / 50
+                    font.pixelSize: Screen.height / 70
                     font.bold: true
                     font.family: "Arial"
                  }
@@ -109,7 +109,7 @@ Window {
                anchors.centerIn: window
                  Text{
                     text: brew.northpopuptext
-                    font.pixelSize: Screen.height / 50
+                    font.pixelSize: Screen.height / 70
                     font.bold: true
                     font.family: "Arial"
                  }
@@ -148,7 +148,7 @@ Window {
                anchors.centerIn: window
                  Text{
                     text: brew.firstpopuptext
-                    font.pixelSize: Screen.height / 50
+                    font.pixelSize: Screen.height / 70
                     font.bold: true
                     font.family: "Arial"
                  }
